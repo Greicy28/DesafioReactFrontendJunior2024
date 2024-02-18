@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  margin-left: 500px;
+}
+
+.add {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.All {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Active {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Completed {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Clear {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Toggle {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 2em;
+  color: brown;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 8px;
+  border-radius: 2px;
+  margin: 15px;
+}
+button {
+  font-size: 15px;
+  margin: 4px;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 800px;
+}
+
+.item {
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.todo-item button {
+  color: red;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
